@@ -1,0 +1,30 @@
+.article{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    padding: 2em;
+    background-color: #FBF7E3;
+    border-radius: 45px;
+    color: #6A3114;
+}
+
+.article-text p{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin-bottom: 1.5em;
+}
+.article img{
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .article{
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 90%;
+    }
+    .article-text{
+        padding: 0 1em;
+    }
+}

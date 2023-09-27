@@ -1,0 +1,28 @@
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FBF7E3;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.nav-container button{
+    margin: 1em 0em;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 50px;
+    background-color: #F3DF85;
+    color: #612406;
+   
+}
+#shop img{
+    width: 60px;
+}
+#shop{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    align-items: center;
+    font-weight: 700;
+    border-radius: 50px;
+}
